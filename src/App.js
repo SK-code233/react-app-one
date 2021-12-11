@@ -1,8 +1,8 @@
 import React from 'react';
 import './App.css';
-import './component/head.jsx'
-import './component/para.jsx'
-import './component/image.jsx'
+import Head from './component/head.jsx'
+import Para from './component/para.jsx'
+import Image from './component/image.jsx';
 
 function App() {
   return (
@@ -12,17 +12,15 @@ function App() {
           <div className="col-md-3 imgBox" >
             {<Image />}
             
-            <img src="../img.jpeg"  className="imag" />
+            {/* <img src="../img.jpeg"  className="imag" /> */}
           </div>
           <div className="col-md-7" >
             <div className="row" >
-              <h1> Heading </h1>
+              <h1> {<Head />} </h1>
             </div>
             <div className="row" >
               <h3>
-                <p>Jcajiccc acmcn jnmcc jnacic anasccic cancacaci 
-                  alcancw cacn acjcc cjacc cc cc jcacac cccic wacac 
-                  accc cwijc ickm jc a aicjkc cc wc</p>
+                {<Para/>}
               </h3>
             </div>
           </div>
@@ -34,18 +32,3 @@ function App() {
 
 export default App;
 
-{/* <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div> */}

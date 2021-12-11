@@ -1,7 +1,7 @@
 import React from 'react';
 
 function Head () {
-    return <h1> Heading </h1>;
+    return <h1> Hello !! </h1>;
 }
 
 export default Head;
