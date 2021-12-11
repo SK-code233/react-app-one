@@ -81,7 +81,7 @@ span + span {
 .mainBox {
     margin-top: 10rem;
     margin-left: 4rem;
-    border: 1px solid grey;
+    border: 1px solid rgba(147, 158, 161, 0.76);
     border-radius: 5px;
     height: 18rem;
     width: 55rem;
@@ -92,16 +92,25 @@ span + span {
 
 .imgBox {
     height: 100%;
-    width: 15rem;
+    width: 20rem;
     padding-top: 10px;
     overflow: hidden;
 }
 
 .imag {
-    width: 150%;
+    width: 200%;
     height: 98%;
 }
 
+.headBox {
+    border: 1px solid rgba(152, 169, 173, 0.247);
+    margin: 1rem;
+}
+
+.paraBox {
+    border: 1px solid rgba(152, 169, 173, 0.247);
+    margin: 1rem;
+}
 /* .pizza-types {
 }
 

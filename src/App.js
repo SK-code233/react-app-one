@@ -15,13 +15,13 @@ function App() {
             {/* <img src="../img.jpeg"  className="imag" /> */}
           </div>
           <div className="col-md-7" >
-            <div className="row" >
+            <div className="row headBox" >
               <h1> {<Head />} </h1>
             </div>
-            <div className="row" >
-              <h3>
+            <div className="row paraBox" >
+              <h4>
                 {<Para/>}
-              </h3>
+              </h4>
             </div>
           </div>
         </div>
