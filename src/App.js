@@ -1,5 +1,8 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
+import './component/head.jsx'
+import './component/para.jsx'
+import './component/image.jsx'
 
 function App() {
   return (
@@ -7,6 +10,8 @@ function App() {
       <div className="container">
         <div className="row mainBox">
           <div className="col-md-3 imgBox" >
+            {<Image />}
+            
             <img src="../img.jpeg"  className="imag" />
           </div>
           <div className="col-md-7" >
